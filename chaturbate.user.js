@@ -6,6 +6,8 @@
 // @author       I
 // @match        *://*chaturbate-online.ru/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=chaturbate-online.ru
+// @downloadURL https://raw.githubusercontent.com/DeAlexPesh/tampermonkey/main/chaturbate.user.js
+// @updateURL https://raw.githubusercontent.com/DeAlexPesh/tampermonkey/main/chaturbate.user.js
 // @grant        none
 // ==/UserScript==
 
