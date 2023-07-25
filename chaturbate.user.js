@@ -24,6 +24,11 @@
     hdr.style.right = '0';
     hdr.style.opacity = '0.5';
     */
+
+    document.querySelectorAll(`[href="/male-cams"]`).forEach(m => { m.remove(); });
+    document.querySelectorAll(`[href="/trans-cams"]`).forEach(m => { m.remove(); });
+    document.querySelectorAll(`[href="https://erovideochat.net/chat-roulete"]`).forEach(m => { m.remove(); });
+    
     try {
         document.querySelector('.main-navbar').remove();
         [...document.querySelectorAll('.h5')].forEach(m => { m.remove(); });
