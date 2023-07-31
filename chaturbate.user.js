@@ -7,6 +7,7 @@
 // @match        *://*chaturbate-online.ru/*
 // @match        *://*chaturbate.com.ru/*
 // @match        *://*chaturbate*
+// @match        *://*chaturbat*
 // @supportURL   https://github.com/DeAlexPesh/tampermonkey/blob/main/chaturbate.user.js
 // @downloadURL  https://raw.githubusercontent.com/DeAlexPesh/tampermonkey/main/chaturbate.user.js
 // @updateURL    https://raw.githubusercontent.com/DeAlexPesh/tampermonkey/main/chaturbate.user.js
