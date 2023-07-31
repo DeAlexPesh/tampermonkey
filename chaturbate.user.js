@@ -85,12 +85,14 @@
             ms.forEach(m => { ml.insertBefore(m, cf); });
         }
         window.addEventListener('scroll', (e) => {
-            var nx = ml.querySelector('.load-more:last-child');
-            if (isInViewport(nx)) {
-                nx.click();
-                nx.classList.remove('load-more');
-                mSorting();
-            }
+            try {
+                var nx = ml.querySelector('.load-more:last-child');
+                if (isInViewport(nx)) {
+                    nx.click();
+                    nx.classList.remove('load-more');
+                    mSorting();
+                }
+            } catch(e) {}
         });
         mSorting();
     } catch(e) {}
